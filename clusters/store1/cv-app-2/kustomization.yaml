@@ -1,0 +1,10 @@
+bases:
+ - ../../base
+
+namesuffix: -cv-app-2
+
+configMapGenerator:
+- name: configmap
+  namespace: default
+  files:
+  - config
